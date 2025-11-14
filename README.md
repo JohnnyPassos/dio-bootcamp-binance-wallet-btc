@@ -42,4 +42,32 @@
 git clone https://github.com/JohnnyPassos/dio-bootcamp-binance-wallet-btc.git
 cd dio-bootcamp-binance-wallet-btc
 npm install
-node src/wallet-generator.js
+node src/gerando-carteira.js
+
+Carteira TESTNET gerada!
+Endereço:   mtoX3vExampleTestnetAddress123456789
+Chave privada: cN9sExampleWIFPrivateKeyForTestnet123456
+Seed:       abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon abandon about
+
+Aviso de Segurança
+ESTE PROJETO É EXCLUSIVAMENTE PARA TESTNET
+NUNCA use em mainnet
+NUNCA armazene BTC reais
+Para produção: Use gerenciadores de wallets não custodiais de sua confiança
+
+dio-bootcamp-binance-wallet-btc/
+├── src/
+│   └── gerando-carteira.js     ← Usa bitcoin.networks.testnet
+├── package.json
+├── .gitignore
+└── README.md
+
+Licença
+MIT – Uso educacional e open-source.
+
+Autor
+Johnny Passos
+Bootcamp DIO + Binance – Novembro 2025
+GitHub
+
+Projeto educacional concluído com segurança e boas práticas!
